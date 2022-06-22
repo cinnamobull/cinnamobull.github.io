@@ -1,7 +1,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" data-default-color-scheme=auto>
+<html lang="zh-CN" data-default-color-scheme=auto>
 
 
 
@@ -16,17 +16,24 @@
   <meta name="author" content="玉桂幺幺的隐藏小男友">
   <meta name="keywords" content="">
   
-    <meta name="description" content="玉桂幺幺的隐藏小男友">
+    <meta name="description" content="哔哩哔哩评论区的各种链接获取评论的ID在这里可以找到评论区相关的API。 对于定位评论来说，比较重要的几个参数是 rpid、type、oid、root、parent，最好同时记录下该评论区的 url。  rpid：是评论的唯一 ID； type：是评论区的类型，例如视频的评论区 type&#x3D;1，纯文字动态的评论区 type&#x3D;17； oid：是评论区的唯一 ID； root &amp; parent：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="哔哩哔哩评论链接">
 <meta property="og:url" content="https://cinnamobull.github.io/2022/06/22/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E8%AF%84%E8%AE%BA%E9%93%BE%E6%8E%A5/index.html">
 <meta property="og:site_name" content="玉桂幺幺的隐藏小男友">
-<meta property="og:description" content="玉桂幺幺的隐藏小男友">
-<meta property="og:locale" content="en_US">
+<meta property="og:description" content="哔哩哔哩评论区的各种链接获取评论的ID在这里可以找到评论区相关的API。 对于定位评论来说，比较重要的几个参数是 rpid、type、oid、root、parent，最好同时记录下该评论区的 url。  rpid：是评论的唯一 ID； type：是评论区的类型，例如视频的评论区 type&#x3D;1，纯文字动态的评论区 type&#x3D;17； oid：是评论区的唯一 ID； root &amp; parent：">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2022/06/22/RhdtIipYQf23wB7.png">
+<meta property="og:image" content="https://s2.loli.net/2022/06/22/uIG1CilAKRfyo9F.png">
+<meta property="og:image" content="https://s2.loli.net/2022/06/22/9EIrkzLt7GSMje4.png">
+<meta property="og:image" content="https://s2.loli.net/2022/06/22/1batGUAcmyhD6ru.png">
 <meta property="article:published_time" content="2022-06-22T10:21:57.000Z">
-<meta property="article:modified_time" content="2022-06-22T10:21:57.591Z">
+<meta property="article:modified_time" content="2022-06-22T14:06:18.474Z">
 <meta property="article:author" content="玉桂幺幺的隐藏小男友">
+<meta property="article:tag" content="哔哩哔哩">
+<meta property="article:tag" content="爬虫">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://s2.loli.net/2022/06/22/RhdtIipYQf23wB7.png">
   
   
   
@@ -114,7 +121,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/">
                 <i class="iconfont icon-home-fill"></i>
-                Home
+                首页
               </a>
             </li>
           
@@ -126,7 +133,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/archives/">
                 <i class="iconfont icon-archive-fill"></i>
-                Archives
+                归档
               </a>
             </li>
           
@@ -138,7 +145,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about/">
                 <i class="iconfont icon-user-fill"></i>
-                About
+                关于
               </a>
             </li>
           
@@ -150,7 +157,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/links/">
                 <i class="iconfont icon-link-fill"></i>
-                Links
+                友链
               </a>
             </li>
           
@@ -195,7 +202,7 @@
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
         <time datetime="2022-06-22 18:21" pubdate>
-          June 22, 2022 pm
+          2022年6月22日 晚上
         </time>
       </span>
     
@@ -206,7 +213,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 words
+          2.7k 字
         
       </span>
     
@@ -217,7 +224,7 @@
         
         
         
-          1 mins
+          23 分钟
         
       </span>
     
@@ -260,7 +267,69 @@
             
               <div class="markdown-body">
                 
-                
+                <h1 id="哔哩哔哩评论区的各种链接"><a href="#哔哩哔哩评论区的各种链接" class="headerlink" title="哔哩哔哩评论区的各种链接"></a>哔哩哔哩评论区的各种链接</h1><h2 id="获取评论的ID"><a href="#获取评论的ID" class="headerlink" title="获取评论的ID"></a>获取评论的ID</h2><p>在<a target="_blank" rel="noopener" href="https://github.com/SocialSisterYi/bilibili-API-collect/tree/master/comment">这里</a>可以找到评论区相关的API。</p>
+<p>对于定位评论来说，比较重要的几个参数是 <code>rpid</code>、<code>type</code>、<code>oid</code>、<code>root</code>、<code>parent</code>，最好同时记录下该评论区的 <code>url</code>。</p>
+<ul>
+<li><code>rpid</code>：是评论的唯一 ID；</li>
+<li><code>type</code>：是评论区的类型，例如视频的评论区 <code>type=1</code>，纯文字动态的评论区 <code>type=17</code>；</li>
+<li><code>oid</code>：是评论区的唯一 ID；</li>
+<li><code>root &amp; parent</code>：是其他评论的 <code>rpid</code>。可以将一层楼理解为树形结构，楼主的评论是树的根节点；<code>root</code> 指向树根，<code>parent</code> 指向所回复的评论，也就是父节点。对于根节点来说，<code>root</code> 和 <code>parent</code> 都是 <code>0</code>。</li>
+<li><code>url</code>：是电脑端访问的链接，例如：<ul>
+<li>动态的链接 <a target="_blank" rel="noopener" href="https://t.bilibili.com/662016827293958168">https://t.bilibili.com/662016827293958168</a></li>
+<li>视频的链接 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ur4y1G7uu">https://www.bilibili.com/video/BV1Ur4y1G7uu</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="手动获取"><a href="#手动获取" class="headerlink" title="手动获取"></a>手动获取</h3><p>在评论区按 <code>F12</code> 打开调试工具，选择 <code>网络</code> 标签页，筛选器选择 <code>Fetch/XHR</code>。</p>
+<p><img src="https://s2.loli.net/2022/06/22/RhdtIipYQf23wB7.png" srcset="/img/loading.gif" lazyload alt="调试工具"></p>
+<p>点赞目标评论，日志会出现一条名为 <code>action</code> 的记录，查看 <code>负载</code>。</p>
+<p><img src="https://s2.loli.net/2022/06/22/uIG1CilAKRfyo9F.png" srcset="/img/loading.gif" lazyload alt="action"></p>
+<p>不过这样看不到 <code>root</code> 和 <code>parent</code>，可以再点一下顶楼就知道 <code>root</code> 。</p>
+<h3 id="直接调用-API"><a href="#直接调用-API" class="headerlink" title="直接调用 API"></a>直接调用 API</h3><p>这个在开头的链接里面都有写，懂得都懂，不懂的说了也不懂😤。</p>
+<p><code>https://api.bilibili.com/x/v2/reply/main?type=17&amp;oid=662016827293958168</code></p>
+<h2 id="Web-端的链接"><a href="#Web-端的链接" class="headerlink" title="Web 端的链接"></a>Web 端的链接</h2><p>Web 端是最简单的，直接在 <code>url</code> 后面加上 <code>#reply&#123;rpid&#125;</code>，例如：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://t.bilibili.com/662016827293958168#reply117746569712">https://t.bilibili.com/662016827293958168#reply117746569712</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Ur4y1G7uu#reply117682419360">https://www.bilibili.com/video/BV1Ur4y1G7uu#reply117682419360</a></li>
+</ul>
+<p>它只需要一个 <code>rpid</code> 参数，连楼中楼都能定位，缺点是 APP 上不能用。</p>
+<p>但是，如果把视频的 BV 号换成 AV 号，APP 上居然就好使了🤔，这个可能是在手机上应用传送门最简便的方式，只需要一个 BV 转 AV 的工具和 <code>rpid</code> 就好。</p>
+<h2 id="纯评论区"><a href="#纯评论区" class="headerlink" title="纯评论区"></a>纯评论区</h2><p>你可能在投票下面看到过这种评论区：</p>
+<p><img src="https://s2.loli.net/2022/06/22/9EIrkzLt7GSMje4.png" srcset="/img/loading.gif" lazyload alt="H5"></p>
+<p>它就是把一个纯评论区的页面强行塞到下面😓</p>
+<p>这个页面的链接格式是：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">https://www.bilibili.com/h5/comment/sub?oid=&#123;oid&#125;&amp;pageType=&#123;type&#125;&amp;root=&#123;root&#125;<br></code></pre></td></tr></table></figure>
+
+<p>例如：</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/h5/comment/sub?oid=662016827293958168&amp;pageType=17&amp;root=117739976272">https://www.bilibili.com/h5/comment/sub?oid=662016827293958168&amp;pageType=17&amp;root=117739976272</a></p>
+<p>如果把参数里的 <code>root</code> 设置成楼中楼的 <code>rpid</code>，那么只显示一条评论。例如：</p>
+<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/h5/comment/sub?oid=662016827293958168&amp;pageType=17&amp;root=117744613552">https://www.bilibili.com/h5/comment/sub?oid=662016827293958168&amp;pageType=17&amp;root=117744613552</a></p>
+<p>所以这个链接没啥大用😓</p>
+<h2 id="APP-限定"><a href="#APP-限定" class="headerlink" title="APP 限定"></a>APP 限定</h2><p>完整版：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">bilibili://comment/detail/17/668698331826880544/115844042448/?subType=0&amp;anchor=115845645872&amp;showEnter=1&amp;extraIntentId=0&amp;scene=1&amp;enterName=查看动态详情&amp;enterUri=bilibili://following/detail/668698331826880544&amp;title=评论详情<br></code></pre></td></tr></table></figure>
+
+<p>简化版：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">bilibili://comment/detail/17/668698331826880544/115844042448/?subType=0&amp;anchor=115845645872<br></code></pre></td></tr></table></figure>
+
+<p>格式：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">bilibili://comment/detail/&#123;type&#125;/&#123;oid&#125;/&#123;root&#125;/?subType=0&amp;anchor=&#123;rpid&#125;<br></code></pre></td></tr></table></figure>
+
+<p>这个是应用于 APP 内的链接，在软件中打开 <code>消息 - 回复我的</code>，然后找到一条 <code>XXX 回复了我的评论</code>，点它，就是这个效果😊</p>
+<p>上面的简化版省略了一些信息，也就是说不会有这个：</p>
+<p><img src="https://s2.loli.net/2022/06/22/1batGUAcmyhD6ru.png" srcset="/img/loading.gif" lazyload alt="查看动态详情"></p>
+<p>参数里的 <code>anchor</code> 就是被定位评论的 <code>rpid</code>，如果不需要定位到楼中楼的话，参数可以都省略。</p>
+<p>但是！哔哩哔哩对于 <code>bilibili://</code> 这样的链接当作文本处理，发在动态和评论里面根本没用😡私信和专栏倒是可以。</p>
+<p>所以需要把它转成 <code>b23.tv</code> 的短链，这个就只能使用 API 访问了。我尝试过网上的几个在线转换工具，不太好用，我也不知道为什么。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs python">url = <span class="hljs-string">&#x27;https://api.bilibili.com/x/share/click&#x27;</span><br>link = <span class="hljs-string">&quot;bilibili://comment/detail/17/668698331826880544/115844042448/?subType=0&amp;anchor=115845645872&quot;</span><br>data = &#123;<br>    <span class="hljs-string">&#x27;build&#x27;</span>: <span class="hljs-string">&#x27;9331&#x27;</span>,<br>    <span class="hljs-string">&#x27;buvid&#x27;</span>: <span class="hljs-string">&#x27;qp92wvbiiwercf5au381g1bzajou85hg&#x27;</span>,<br>    <span class="hljs-string">&#x27;oid&#x27;</span>: link,<br>    <span class="hljs-string">&#x27;platform&#x27;</span>: <span class="hljs-string">&#x27;ios&#x27;</span>,<br>    <span class="hljs-string">&#x27;share_channel&#x27;</span>: <span class="hljs-string">&#x27;COPY&#x27;</span>,<br>    <span class="hljs-string">&#x27;share_id&#x27;</span>: <span class="hljs-string">&#x27;public.webview.0.0.pv&#x27;</span>,<br>    <span class="hljs-string">&#x27;share_mode&#x27;</span>: <span class="hljs-string">&#x27;3&#x27;</span><br>&#125;<br><span class="hljs-built_in">print</span>(requests.post(url, data).json()[<span class="hljs-string">&quot;data&quot;</span>][<span class="hljs-string">&quot;content&quot;</span>])<br></code></pre></td></tr></table></figure>
+
+<p>网上抄的，本着能用就行的精神😋</p>
+<p>生成的这个东西 <a target="_blank" rel="noopener" href="https://b23.tv/nYObEls">https://b23.tv/nYObEls</a> 就可以发在评论区或者动态（注意短链是会过期的）。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>没啥卵用</p>
+<p>（这个短链可以做诈骗链接）</p>
+<p>（（我写过把任意短链伪装成视频的方法））</p>
+<p>（（（但是为什么要把评论伪装成视频😅）））</p>
+<p><strong>你都看到这了，为什么不去<a href="https://cinnamobull.github.io/about/">关于</a>点一点我的联系方式👀</strong></p>
+
                 
               </div>
             
@@ -268,6 +337,15 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9/">#哔哩哔哩</a>
+      
+        <a href="/tags/%E7%88%AC%E8%99%AB/">#爬虫</a>
+      
+    </div>
   
 </div>
 
@@ -283,25 +361,25 @@
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Author</div>
+          <div>作者</div>
           <div>玉桂幺幺的隐藏小男友</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Posted on</div>
-          <div>June 22, 2022</div>
+          <div>发布于</div>
+          <div>2022年6月22日</div>
         </div>
       
       
       <div class="license-meta-item">
-        <div>Licensed under</div>
+        <div>许可协议</div>
         <div>
           
             
             
               <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-              <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
                 <i class="iconfont icon-by"></i>
               </span>
               </a>
@@ -326,7 +404,7 @@
                     
                       <a href="/2022/06/22/hello-world/" title="Hello World">
                         <span class="hidden-mobile">Hello World</span>
-                        <span class="visible-mobile">Next</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -345,7 +423,7 @@
       
   <aside class="sidebar" style="margin-left: -1rem">
     <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;Table of Contents</p>
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
   <div class="toc-body" id="toc-body"></div>
 </div>
 
@@ -400,7 +478,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -408,7 +486,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -560,7 +638,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
